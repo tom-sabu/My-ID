@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
       title: 'My Info Card',
       home: MyInfoPage(),
       debugShowCheckedModeBanner: false,
-    )
+    );
   }
 }
 
@@ -25,8 +25,11 @@ class MyInfoPage extends StatelessWidget {
       ),
       backgroundColor: Colors.blueGrey[900],
       body: Center(
-        child: Text( 'Info Car'),
+        child: Text(
+       'Info Card Content Will Go Here!',
+        style: TextStyle(color: Colors.white, fontSize: 20),
+        ),
       ),
-    )
+    );
   }
 }
